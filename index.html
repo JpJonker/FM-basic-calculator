@@ -22,28 +22,36 @@
 			<h1 class="calculator-display">0</h1>
 			<div class="calculator-keypad">
 				<!--Row 1-->
-				<button class="key7">7</button>
-				<button class="key8">8</button>
-				<button class="key9">9</button>
-				<button class="key_del">DEL</button>
+				<button class="key7" onclick="buttonClicked('7')">7</button>
+				<button class="key8" onclick="buttonClicked('8')">8</button>
+				<button class="key9" onclick="buttonClicked('9')">9</button>
+				<button class="key_del" onclick="buttonClicked('del')">DEL</button>
 				<!--Row 2-->
-				<button class="key4">4</button>
-				<button class="key5">5</button>
-				<button class="key6">6</button>
-				<button class="key_plus">+</button>
+				<button class="key4" onclick="buttonClicked('4')">4</button>
+				<button class="key5" onclick="buttonClicked('5')">5</button>
+				<button class="key6" onclick="buttonClicked('6')">6</button>
+				<button class="key_plus" onclick="buttonClicked('plus')">+</button>
 				<!--Row 3-->
-				<button class="key1">1</button>
-				<button class="key2">2</button>
-				<button class="key3">3</button>
-				<button class="key_minus">-</button>
+				<button class="key1" onclick="buttonClicked('1')">1</button>
+				<button class="key2" onclick="buttonClicked('2')">2</button>
+				<button class="key3" onclick="buttonClicked('3')">3</button>
+				<button class="key_minus" onclick="buttonClicked('minus')">-</button>
 				<!--Row 4-->
-				<button class="key_dot">.</button>
-				<button class="key0">0</button>
-				<button class="key_divide">/</button>
-				<button class="key_multiply">x</button>
+				<button class="key_dot" onclick="buttonClicked('.')">.</button>
+				<button class="key0" onclick="buttonClicked('0')">0</button>
+				<button class="key_divide" onclick="buttonClicked('divide')">/</button>
+				<button class="key_multiply" onclick="buttonClicked('multiply')">
+					x
+				</button>
 				<!--Row 5-->
-				<button class="row-5-col-1 key_reset">RESET</button>
-				<button class="row-5-col-2 key_calculate">=</button>
+				<button class="row-5-col-1 key_reset" onclick="buttonClicked('reset')">
+					RESET
+				</button>
+				<button
+					class="row-5-col-2 key_calculate"
+					onclick="buttonClicked('calculate')">
+					=
+				</button>
 			</div>
 		</section>
 	</body>
